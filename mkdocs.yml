@@ -1,0 +1,127 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: Analítica Para Negocios
+
+site_url: https://github.com/fralfaro/ICS40125
+site_author: Francisco Alfaro
+site_description:
+
+# Repository
+repo_name: fralfaro/ICS40125
+repo_url: https://github.com/fralfaro/ICS40125
+edit_uri: ''
+
+
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - neoteroi.cards
+  - neoteroi.timeline
+  - neoteroi.projects
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/neoteroi-mkdocs.css
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Theme
+theme:
+  name: material
+  language: es
+  logo: images/usm.png
+  favicon: images/icon.png
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - navigation.indexes
+    - content.tooltips
+    - navigation.path
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.tabs
+    - navigation.footer
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fralfaro
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/fralfaro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faam/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/faamds
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@fralfaro
+    - icon: fontawesome/solid/globe
+      link: https://fralfaro.github.io/portfolio/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+
+# TOC
+nav:
+  - 🏠 Home:
+        - index.md
+        - perfil.md
+        - programa.md
+        - datasets/datasets.md
+  - 📚 Contenido:
+      - Clases: clases/clases.md
+      - "Clase 1 - Intro": clases/clase_01.ipynb
+      - "Clase 2 - NumPy": clases/clase_02.ipynb
+      - "Clase 3 - Pandas": clases/clase_03.ipynb
+      - "Clase 4 - Inferencia": clases/clase_04.ipynb
+      - "Clase 5 - Test de Hipotesis": clases/clase_05.ipynb
+      - "Clase 6 - Regresion Lineal": clases/clase_06.ipynb
+      - "Clase 6a - Polynomial Under Overfitting": clases/clase_06a.ipynb
+      - "Clase 7 - Resample Methods Cross Validation": clases/clase_07.ipynb
+      - "Clase 8 - Resampling Methods Bootstrapping": clases/clase_08.ipynb
+      - "Clase 9 - Regularizacion Ridge Lasso": clases/clase_09.ipynb
+      - "Clase 10 - Modelos No Lineales de Regresion": clases/clase_10.ipynb
+      - "Clase 11 - Logistic Regression and Error Metrics": clases/clase_11.ipynb
+      - "Clase 12a - Modelos No Lineales de Clasificacion SVM": clases/clase_12a.ipynb
+      - "Clase 12b - Modelos No Lineales de Clasificacion Trees": clases/clase_12b.ipynb
+      - exercises/exercises.md
+
+  - 💡 Evaluaciones:
+      - "Project 1": assessments/project1.md
+      - "Project 2": assessments/project2.pdf
+      - "Project 3": assessments/project3.md

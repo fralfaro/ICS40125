@@ -1,0 +1,23 @@
+---
+title: "Conjunto de Datos"
+---
+
+# Datasets disponibles
+
+[Healthcare Data (CSV)](healthcare_data.csv) | <a href="https://github.com/hizocar/USM-COURSE/raw/main/docs/datasets/healthcare_data.csv" target="_blank">⬇️ Descargar</a>
+
+[Housing Data (CSV)](Housing.csv) | <a href="https://github.com/hizocar/USM-COURSE/raw/main/docs/datasets/Housing.csv" target="_blank">⬇️ Descargar</a>
+
+[Tourism Data (XLSX)](Tourism.xlsx) | <a href="https://github.com/hizocar/USM-COURSE/raw/main/docs/datasets/Tourism.xlsx" target="_blank">⬇️ Descargar</a>
+
+## Data for assesment 1: 
+
+[Sales Data (CSV)](sales.csv) | <a href="https://github.com/hizocar/USM-COURSE/raw/main/docs/datasets/sales.csv" target="_blank">⬇️ Descargar</a>
+
+## Data for assesment 3: 
+
+[Bank Data (CSV)](Bank.csv) | <a href="https://github.com/hizocar/USM-COURSE/raw/main/docs/datasets/Bank.csv" target="_blank">⬇️ Descargar</a>
+
+## Data for Project 1: 
+
+[Employee Compensation Data (CSV)](employee_compensation.csv) | <a href="https://github.com/hizocar/USM-COURSE/raw/main/docs/datasets/employee_compensation.csv" target="_blank">⬇️ Descargar</a>

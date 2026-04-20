@@ -1,0 +1,19 @@
+[project]
+name = "docs"
+version = "0.1.0"
+description = "mkdocs - courses"
+authors = [
+    { name = "Francisco Alfaro", email = "francisco.alfaro.496@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material",
+    "neoteroi-mkdocs",
+    "mkdocs-jupyter",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
