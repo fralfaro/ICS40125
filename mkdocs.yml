@@ -1,11 +1,8 @@
-# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
-
 # Project information
-site_name: Analítica Para Negocios
+site_name: ICS40125 - Analítica Para Negocios
 
 site_url: https://github.com/fralfaro/ICS40125
 site_author: Francisco Alfaro
-site_description:
 
 # Repository
 repo_name: fralfaro/ICS40125
@@ -41,7 +38,7 @@ theme:
   name: material
   language: es
   logo: images/usm.png
-  favicon: images/icon.png
+  favicon: images/usm.png
   features:
     - search.suggest
     - search.highlight
@@ -93,35 +90,68 @@ extra:
 plugins:
   - mkdocs-jupyter:
       kernel_name: python3
+      execute: false
   - search
 
-
-# TOC
+#TOC
 nav:
-  - 🏠 Home:
+    - 🏠 Home:
         - index.md
         - perfil.md
         - programa.md
-        - datasets/datasets.md
-  - 📚 Contenido:
-      - Clases: clases/clases.md
-      - "Clase 1 - Intro": clases/clase_01.ipynb
-      - "Clase 2 - NumPy": clases/clase_02.ipynb
-      - "Clase 3 - Pandas": clases/clase_03.ipynb
-      - "Clase 4 - Inferencia": clases/clase_04.ipynb
-      - "Clase 5 - Test de Hipotesis": clases/clase_05.ipynb
-      - "Clase 6 - Regresion Lineal": clases/clase_06.ipynb
-      - "Clase 6a - Polynomial Under Overfitting": clases/clase_06a.ipynb
-      - "Clase 7 - Resample Methods Cross Validation": clases/clase_07.ipynb
-      - "Clase 8 - Resampling Methods Bootstrapping": clases/clase_08.ipynb
-      - "Clase 9 - Regularizacion Ridge Lasso": clases/clase_09.ipynb
-      - "Clase 10 - Modelos No Lineales de Regresion": clases/clase_10.ipynb
-      - "Clase 11 - Logistic Regression and Error Metrics": clases/clase_11.ipynb
-      - "Clase 12a - Modelos No Lineales de Clasificacion SVM": clases/clase_12a.ipynb
-      - "Clase 12b - Modelos No Lineales de Clasificacion Trees": clases/clase_12b.ipynb
-      - exercises/exercises.md
+        - evaluaciones.md
+    - 🛠️ Toolkit:
+        - lectures/toolkit/bt_intro.md
+        - lectures/toolkit/onboarding.md
+        - Ecosistema Linux:
+            - lectures/toolkit/linux.md
+            - lectures/toolkit/bash.md
+            - lectures/toolkit/linux_excercises.ipynb
+        - Ecosistema Git:
+            - lectures/toolkit/git.md
+            - lectures/toolkit/github.md
+        - Ecosistema Python:
+            - lectures/toolkit/markdown.md
+            - lectures/toolkit/python.ipynb
+            - lectures/toolkit/google_colab.ipynb
+            - lectures/toolkit/ai.ipynb
+    - 📝 Data Manipulation:
+        - lectures/data_manipulation/data_intro.md
+        - lectures/data_manipulation/sc_01.ipynb
+        - lectures/data_manipulation/pd_01a.ipynb
+        - lectures/data_manipulation/pd_01b.ipynb
+        - lectures/data_manipulation/eda_01.ipynb
+    - 📊 Visualization:
+        - lectures/visualization/vis_intro.md
+        - lectures/visualization/vis_01.ipynb
+        - lectures/visualization/vis_02.ipynb
+    - 🤖 Machine Learning:
+        - lectures/machine_learning/01_intro.ipynb
+        - lectures/machine_learning/basic_01.ipynb
+        - lectures/machine_learning/reg_01.ipynb
+        - lectures/machine_learning/reg_02.ipynb
+        - lectures/machine_learning/cla_01.ipynb
+        - lectures/machine_learning/ns_01.ipynb
+        - lectures/machine_learning/ns_02.ipynb
+        - lectures/machine_learning/over_01.ipynb
+        - lectures/machine_learning/over_02.ipynb
+        - lectures/machine_learning/ts_01.ipynb
+    - ✅ Evaluations:
+        - evaluation.md
+        - Laboratorios:
+            - Lab 01: labs/lab_01.ipynb
+            - Lab 02: labs/lab_02.ipynb
+            - Lab 03: labs/lab_03.ipynb
+            - Lab 04: labs/lab_04.ipynb
+            - Lab 05: labs/lab_05.ipynb
+            - Lab 06: labs/lab_06.ipynb
+            - Lab 07: labs/lab_07.ipynb
+            - Lab 08: labs/lab_08.ipynb
+            - Lab 09: labs/lab_09.ipynb
+            - Lab 10: labs/lab_10.ipynb
 
-  - 💡 Evaluaciones:
-      - "Project 1": assessments/project1.md
-      - "Project 2": assessments/project2.pdf
-      - "Project 3": assessments/project3.md
+        - Tareas:
+            - Tarea 01: homeworks/hw_01.ipynb
+            - Tarea 02: homeworks/hw_02.ipynb
+        - Proyecto:
+            - projects/project_definition.md
