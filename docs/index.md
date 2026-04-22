@@ -216,7 +216,7 @@ Durante las sesiones se trabaja con las principales herramientas del ecosistema 
   url: labs/lab_01
 
 - title: Proyectos
-  content: Tareas del curso
+  content: Proyectos del curso
   image: images/icons/hw.png
   url: homeworks/hw_01
 
