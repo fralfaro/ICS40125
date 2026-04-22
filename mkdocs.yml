@@ -150,8 +150,7 @@ nav:
             - Lab 09: labs/lab_09.ipynb
             - Lab 10: labs/lab_10.ipynb
 
-        - Tareas:
-            - Tarea 01: homeworks/hw_01.ipynb
-            - Tarea 02: homeworks/hw_02.ipynb
-        - Proyecto:
-            - projects/project_definition.md
+        - Proyectos:
+            - Proyecto 01: homeworks/hw_01.ipynb
+            - Proyecto 02: homeworks/hw_02.ipynb
+  
