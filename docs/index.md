@@ -218,7 +218,7 @@ Durante las sesiones se trabaja con las principales herramientas del ecosistema 
 - title: Proyectos
   content: Proyectos del curso
   image: images/icons/hw.png
-  url: homeworks/hw_01
+  url: projects/project_01.ipynb
 
 
 

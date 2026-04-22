@@ -151,6 +151,6 @@ nav:
             - Lab 10: labs/lab_10.ipynb
 
         - Proyectos:
-            - Proyecto 01: homeworks/hw_01.ipynb
-            - Proyecto 02: homeworks/hw_02.ipynb
+            - Proyecto 01: projects/project_01.ipynb
+            - Proyecto 02: projects/project_02.ipynb
   
