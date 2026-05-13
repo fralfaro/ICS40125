@@ -181,7 +181,7 @@ Durante las sesiones se trabaja con las principales herramientas del ecosistema 
 
 ## Contenidos del Curso
 
-::cards:: cols=4
+::cards:: cols=3
 
 - title: Toolkit del Curso
   content: Linux, Git/GitHub, Python
@@ -198,11 +198,23 @@ Durante las sesiones se trabaja con las principales herramientas del ecosistema 
   image: images/icons/vis.png
   url: lectures/visualization/vis_intro
 
+
+
+
+::/cards::
+
+
+::cards:: cols=3
+
+- title: Inferencia Estadística
+  content: test hipótesis, regresión lineal
+  image: images/icons/inf.png
+  url: lectures/inference/a_inferencia
+
 - title: Machine Learning
   content: Regresión, Clasificación, Clustering
   image: images/icons/ml.png
   url: lectures/machine_learning/01_intro
-
 
 ::/cards::
 

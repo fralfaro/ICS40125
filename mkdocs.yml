@@ -125,6 +125,10 @@ nav:
         - lectures/visualization/vis_intro.md
         - lectures/visualization/vis_01.ipynb
         - lectures/visualization/vis_02.ipynb
+    - 📊 Inference:
+        - lectures/inference/a_inferencia.ipynb
+        - lectures/inference/b_test.ipynb
+        - lectures/inference/c_rl.ipynb
     - 🤖 Machine Learning:
         - lectures/machine_learning/01_intro.ipynb
         - lectures/machine_learning/basic_01.ipynb
